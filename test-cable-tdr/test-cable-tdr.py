@@ -8,7 +8,8 @@ from tabulate import tabulate
 # Access switches to test
 ACCESS_SWITCHES = {
     "10.20.39.21": 11,
-    "10.20.39.22": 11
+    "10.20.39.22": 11,
+    "10.20.39.23": 11
 }
 
 USERNAME = "cisco"
