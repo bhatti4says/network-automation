@@ -10,7 +10,7 @@ import time
 # Configuration - CHANGE NOTHING HERE
 CORE_IP = "192.168.100.110"
 USERNAME = "cisco"
-PASSWORD = "Xadmin74377"
+PASSWORD = "Cisco1234"
 
 ACCESS_SWITCHES = [
     "10.20.39.22",  # NSPC-AccSW-2A
@@ -63,7 +63,7 @@ try:
             "vtp version 3",
             "vtp domain nadec.com.sa", 
             "vtp mode client",
-            "vtp password Xadmin74377 hidden",
+            "vtp password Cisco1234 hidden",
             "vtp pruning",
             "end",
             "wr"
@@ -106,7 +106,7 @@ except Exception as e:
     print(f"\n❌ ERROR: {str(e)}")
     print("\nTroubleshooting:")
     print("1. Check if Core Switch is reachable: ping 192.168.100.110")
-    print("2. Check credentials (cisco/Xadmin74377)")
+    print("2. Check credentials (cisco/Cisco1234)")
     print("3. Install paramiko: pip install paramiko")
 
 input("\nPress Enter to exit...")

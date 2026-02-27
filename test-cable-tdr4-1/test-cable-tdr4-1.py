@@ -9,7 +9,7 @@ jump_host = {
     "device_type": "cisco_ios",
     "host": "10.10.40.254",
     "username": "cisco",
-    "password": "Xadmin74377",
+    "password": "Cisco1234",
     "fast_cli": False,  # safer for interactive ssh prompts
 }
 
@@ -24,7 +24,7 @@ switch_list = [
 ]
 
 SW_USERNAME = "cisco"          # Only used if a switch ever asks for Username:
-SW_PASSWORD = "Xadmin74377"    # Per your note: switch typically asks for password directly
+SW_PASSWORD = "Cisco1234"    # Per your note: switch typically asks for password directly
 
 # -------------------------------
 # Prompt/Session helpers

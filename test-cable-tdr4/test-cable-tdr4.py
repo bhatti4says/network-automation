@@ -7,7 +7,7 @@ device = {
     'device_type': 'cisco_ios',
     'host': '10.10.40.254',
     'username': 'cisco',
-    'password': 'Xadmin74377',
+    'password': 'Cisco1234',
 }
 
 def run_connected_tdr():

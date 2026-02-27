@@ -6,7 +6,7 @@ import socket
 # Core SW 01 as jump host
 JUMP_HOST = "10.20.39.20"
 USERNAME = "cisco"
-PASSWORD = "Xadmin74377"
+PASSWORD = "Cisco1234"
 
 # All switches to configure (via Core SW 01) - JUST IPs
 SWITCH_IPS = [

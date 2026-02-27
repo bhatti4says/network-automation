@@ -7,7 +7,7 @@ import re
 # --- Configuration ---
 CORE_IP = "192.168.100.110"
 USERNAME = "cisco"
-PASSWORD = "Xadmin74377"
+PASSWORD = "Cisco1234"
 
 ACCESS_SWITCHES = {
     "10.20.39.22": 11,

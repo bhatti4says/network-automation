@@ -8,7 +8,7 @@ from datetime import datetime
 # Core switch for SSH hopping
 CORE_IP = "10.20.39.20"
 USERNAME = "cisco"
-PASSWORD = "Xadmin74377"
+PASSWORD = "Cisco1234"
 
 # Access switches - IPs from .21 to .26
 ACCESS_SWITCHES = {

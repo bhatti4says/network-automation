@@ -12,7 +12,7 @@ ACCESS_SWITCHES = {
 }
 
 USERNAME = "cisco"
-PASSWORD = "Xadmin74377"
+PASSWORD = "Cisco1234"
 
 def read_shell_output(shell, timeout=2):
     """Read available output from shell"""
@@ -63,7 +63,7 @@ def run_cable_diagnostics(shell, interface):
     # Wait for test to complete
     time.sleep(3)
     
-    # Get TDR results
+    # Get TDR results and shows in nice format
     results_output = send_command(shell, f"show cable-diagnostics tdr interface {interface}", delay=2)
     
     return results_output

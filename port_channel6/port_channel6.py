@@ -7,7 +7,7 @@ import re
 # Jump host configuration
 JUMP_HOST_IP = "192.168.100.111"  # Core SW 01
 USERNAME = "cisco"
-PASSWORD = "Xadmin74377"
+PASSWORD = "Cisco1234"
 
 # Access switches - updated with IP range and port channel numbers
 ACCESS_SWITCHES = {

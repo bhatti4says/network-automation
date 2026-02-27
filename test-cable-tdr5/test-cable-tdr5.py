@@ -9,7 +9,7 @@ jump_host = {
     "device_type": "cisco_ios",
     "host": "10.10.40.254",
     "username": "cisco",
-    "password": "Xadmin74377",
+    "password": "Cisco1234",
     "fast_cli": False,
     # IMPORTANT: Do NOT enable session_log here; it would capture passwords in plain text.
     # "session_log": "netmiko_session.log",
@@ -28,7 +28,7 @@ switch_list = [
 ]
 
 SW_USERNAME = "cisco"          # Only if a switch ever asks for Username:
-SW_PASSWORD = "Xadmin74377"    # Switches prompt for password directly in your environment
+SW_PASSWORD = "Cisco1234"    # Switches prompt for password directly in your environment
 
 # Optional: write a sanitized activity log (no secrets)
 ACTIVITY_LOG_FILE = None  # e.g., set to "tdr_activity.log" if you want a masked log

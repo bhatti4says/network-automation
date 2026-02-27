@@ -6,7 +6,7 @@ import re
 
 CORE_IP = "192.168.100.110"
 USERNAME = "cisco"
-PASSWORD = "Xadmin74377"
+PASSWORD = "Cisco1234"
 
 # Access switches with their port channel group numbers
 ACCESS_SWITCHES = {
